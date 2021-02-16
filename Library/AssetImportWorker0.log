@@ -1,0 +1,504 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-achuk
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+
+LICENSE SYSTEM [20201018 19:40:53] Next license update check is after 2020-10-19T04:23:03
+
+
+LICENSE SYSTEM [20201018 19:40:53] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+Built from '2019.4/staging' branch; Version is '2019.4.12f1 (225e826a680e) revision 2252418'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 7089 MB
+[Licensing::Module] Serial number assigned to: "F4-YAJT-P2S6-RHTH-XKV6-XXXX"\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2019.4.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Projects/CubeAthon -1 2019
+-logFile
+Library/AssetImportWorker0.log
+-srvPort
+55057
+Successfully changed project path to: D:/Unity/Projects/CubeAthon -1 2019
+D:/Unity/Projects/CubeAthon -1 2019
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 86.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.4.12f1 (225e826a680e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Projects/CubeAthon -1 2019/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x412)
+    Vendor:   
+    VRAM:     2048 MB
+    Driver:   20.19.15.4326
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002697 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.527 seconds
+Registering precompiled user dll's ...
+Registered in 0.035240 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1487.
+Total: 2.047700 ms (FindLiveObjects: 0.495800 ms CreateObjectMapping: 0.078000 ms MarkObjects: 1.406700 ms  DeleteObjects: 0.065500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ffd6a4981caa3734f8a6faf42ce4c97c.asset.1.index for Assets/Prefabs/Canvas.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <e6e2fa0a47414cd2ac33237924761b45>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/Canvas.prefab' (target hash: '29da81fde0b4ce4f1bb8f035514cb44c') in 0.209220 seconds
+  Import took 0.212570 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003796 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Registering precompiled user dll's ...
+Registered in 0.035489 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.2 MB.
+System memory in use after: 34.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1493.
+Total: 1.649300 ms (FindLiveObjects: 0.408800 ms CreateObjectMapping: 0.044800 ms MarkObjects: 1.139000 ms  DeleteObjects: 0.056100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 236.801351 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/720e103565f2df040b0c0d76ff580197.asset.1.index for Assets/Prefabs/Canvas.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <e6e2fa0a47414cd2ac33237924761b45>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/Canvas.prefab' (target hash: 'c1e8e6956fbd81a655f13c8bfbcd3296') in 0.096342 seconds
+  Import took 0.099756 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.557925 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a00dc6341c1ab384daa83d4d7558545b.asset.1.index for Assets/Prefabs/Canvas.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <e6e2fa0a47414cd2ac33237924761b45>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/Canvas.prefab' (target hash: '5f962ed936df53563932ef2aa603f8b0') in 0.011951 seconds
+  Import took 0.015388 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.868574 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e98e0efdc3ded9d49a235e182077944a.asset.1.index for Assets/Prefabs/Canvas.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <e6e2fa0a47414cd2ac33237924761b45>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/Canvas.prefab' (target hash: '7824819a8569c2fd2bc47e4106c8c7b1') in 0.018929 seconds
+  Import took 0.022413 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.583039 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ebfeec84ed67a1944b194312088e6f9a.asset.1.index for Assets/Prefabs/Canvas.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <e6e2fa0a47414cd2ac33237924761b45>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/Canvas.prefab' (target hash: '2bef652070874ddd191030daa28cfa6f') in 0.024181 seconds
+  Import took 0.028001 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.255568 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ce2135d90b8b2714fb1c417d9eacd947.asset.1.index for Assets/Prefabs/Canvas.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <e6e2fa0a47414cd2ac33237924761b45>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/Canvas.prefab' (target hash: '7a9f985d7113796a10cffed9ea86ab56') in 0.015195 seconds
+  Import took 0.018208 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002357 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Registering precompiled user dll's ...
+Registered in 0.037815 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.2 MB.
+System memory in use after: 34.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1499.
+Total: 1.725300 ms (FindLiveObjects: 0.311300 ms CreateObjectMapping: 0.038100 ms MarkObjects: 1.330900 ms  DeleteObjects: 0.044000 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004053 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Registering precompiled user dll's ...
+Registered in 0.041796 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.2 MB.
+System memory in use after: 34.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1505.
+Total: 2.957600 ms (FindLiveObjects: 0.851100 ms CreateObjectMapping: 0.088900 ms MarkObjects: 1.957400 ms  DeleteObjects: 0.059600 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002372 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.193 seconds
+Registering precompiled user dll's ...
+Registered in 0.040160 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.113 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.2 MB.
+System memory in use after: 34.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1511.
+Total: 1.656300 ms (FindLiveObjects: 0.339800 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.236400 ms  DeleteObjects: 0.043400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.154939 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/6349f69f5a2614e43b8172f0f550d1a4.asset.1.index for Assets/Prefabs/Canvas.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <e6e2fa0a47414cd2ac33237924761b45>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/Canvas.prefab' (target hash: '1afe0fe96f4ed29b939490669b37719d') in 0.087651 seconds
+  Import took 0.100541 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002469 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 23.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.233 seconds
+Registering precompiled user dll's ...
+Registered in 0.040339 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.297 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.2 MB.
+System memory in use after: 34.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1517.
+Total: 1.706600 ms (FindLiveObjects: 0.427300 ms CreateObjectMapping: 0.054200 ms MarkObjects: 1.169700 ms  DeleteObjects: 0.054800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.428674 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(cb8229f028107b141b12de029d195770) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7f1507ed2192de84cbfdb805437fec62.asset.1.index for Assets/Prefabs/Canvas.prefab with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <e6e2fa0a47414cd2ac33237924761b45>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Prefabs/Canvas.prefab' (target hash: '5fe148a3756202814b3e44b2ce6caf08') in 0.089360 seconds
+  Import took 0.092770 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004320 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.381 seconds
+Registering precompiled user dll's ...
+Registered in 0.042982 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.190 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.3 MB.
+System memory in use after: 34.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1523.
+Total: 2.151100 ms (FindLiveObjects: 0.516400 ms CreateObjectMapping: 0.090200 ms MarkObjects: 1.490700 ms  DeleteObjects: 0.052800 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002494 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.378 seconds
+Registering precompiled user dll's ...
+Registered in 0.051458 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\CubeAthon -1 2019\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.3 MB.
+System memory in use after: 34.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1529.
+Total: 1.931500 ms (FindLiveObjects: 0.459300 ms CreateObjectMapping: 0.082200 ms MarkObjects: 1.334500 ms  DeleteObjects: 0.054100 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.0 MB.
+System memory in use after: 34.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1529.
+Total: 1.587800 ms (FindLiveObjects: 0.317500 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.189500 ms  DeleteObjects: 0.048400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 359.976953 seconds.
+  path: Assets/Scenes/Level01.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Level01.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/776f27e84c531174ea720cba512dd734.asset.1.index for Assets/Scenes/Level01.unity with Types
+InvalidOperationException: Stack empty.
+  at System.Collections.Generic.Stack`1[T].ThrowForEmptyStack () [0x00000] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at System.Collections.Generic.Stack`1[T].Peek () [0x00008] in <ef151b6abb5d474cb2c1cb8906a8b5a4>:0 
+  at UnityEditor.AssetPostprocessingInternal.CleanupPostprocessors () [0x00060] in <e6e2fa0a47414cd2ac33237924761b45>:0 
+ 
+(Filename: <ef151b6abb5d474cb2c1cb8906a8b5a4> Line: 0)
+
+Done importing asset: 'Assets/Scenes/Level01.unity' (target hash: '2d5c7cef0765de61c3d513a588b54a8a') in 0.165521 seconds
+  Import took 0.169290 seconds.
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
